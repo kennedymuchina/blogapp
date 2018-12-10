@@ -1,0 +1,32 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "Simple CRUD app for posting blog posts",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennedymuchina/blogapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennedymuchina/blogapp/issues"
+  },
+  "homepage": "https://github.com/kennedymuchina/blogapp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.0",
+    "mongoose": "^5.3.15",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
